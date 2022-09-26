@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+   font-family: 'Lato', serif;
+}
+.header .container{
+   max-width: 830px;
+   padding: 0 10px;
+   margin:0 auto;
+}
+h1{
+   margin: 26px 0 40px ;
+   font-size: 46px;
+   color: #1E212C;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   text-shadow: 15px 15px 15px #717172;
+}
+.fa-calendar-o{
+   font-size: 16px;
+}
+.icons{
+   margin-bottom: 40px;
+}
+.icon1, .icon2, .icon3{
+   text-align: center;
+   display: inline-block;
+}
+.main{
+   margin-bottom: 60px;
+}
+.icon1{
+   margin-right: 24px;
+}
+.icon2{
+   margin-right: 414px;
+}
+.Share {
+   margin-right: 17px;
+}
+a {
+   margin-right: 12px;
+   color: #787A80;
+}
+.in {
+   font-size: 20px;
+   font-weight: 900;
+   color: #787A80;
+}
+.main .container{
+   max-width: 830px;
+   padding: 0 10px;
+   margin:0 auto;
+}
+.main-img{
+   margin-bottom: 60px;
+   text-align: center;
+}
+.main-img img{
+   box-shadow: 10px 15px 20px 10px #717172;
+   max-width: 100%;   
+}
+.text1 {
+   margin-bottom: 24px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+}
+.text2 {
+   margin-bottom: 48px;
+   
+}
+.text2-lead1 {
+   margin-bottom: 20px;
+   display: inline-block;
+   line-height: 160%;
+   color: #424551;
+}
+.text2-lead2{
+   line-height: 160%;
+   color: #424551;
+}
+.text3 {
+   padding-left: 58px; 
+   margin-bottom: 48px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+}
+.text4 {
+   margin-bottom: 24px;
+   line-height: 160%;
+   color: #424551;
+}
+.text5 {
+   margin-bottom: 24px;
+   line-height: 160%;
+   color: #424551;
+}
+.text5 li{
+   list-style: inside;
+
+}
+.text6 {
+   margin-bottom: 60px;
+   line-height: 160%;
+   color: #424551;
+}
+.footer{
+   margin-bottom: 40px;
+}
+.footer .conteiner{
+   max-width: 830px;
+   padding: 0 10px;
+   margin:0 auto;
+}
+.nav, .nav-social {
+display: inline-block;
+
+}
+.nav{
+   margin-right: 266px;
+}
+.menu1 {
+   color: #000;
+   margin-right: 12px;
+   font-weight: 700;
+   line-height: 160%;
+}
+.menu2 {
+   color: #787A80;
+   border: 1px solid #b3b3b3;
+   padding: 5.5px 16px;
+   border-radius: 4px;
+   margin-right: 12px;
+   font-size: 14px;
+   line-height: 150%;
+   box-shadow: 3px 3px 7px 1px;
+}
+.menu3 {
+   color: #787A80;
+   border: 1px solid #b3b3b3;
+   padding: 5.5px 16px;
+   border-radius: 4px;
+   margin-right: 12px;
+   font-family: 'Lato', serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 150%;
+   box-shadow: 3px 3px 7px 1px;
+}
+.menu4 {
+   color: #787A80;
+   border: 1px solid #b3b3b3;
+   padding: 5.5px 16px;
+   border-radius: 4px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 150%;
+   box-shadow: 3px 3px 7px 1px;
+}
+.border-top{
+   border-top: 25px double;
+}
+
+.container-proba1 {
+   
+   max-width: 700px;
+   box-shadow: 5px 5px 5px #1E212C;
+   margin: 40px 15px;
+   background: hsla(240, 2%, 75%, 0.815);
+   padding: 15px;
+}
+.container-proba2 {
+   max-width: 600px;
+   background-color: #424551;
+   background: linear-gradient(357deg, rgba(42,254,205,1) 9%, rgba(121,89,9,1) 48%, rgba(0,212,255,1) 83%);
+   box-shadow: 5px 5px 5px #1E212C;
+   margin: 40px 15px;
+   padding: 15px;
+}
+.container-proba-img {
+   background: url(../img/proba.jpg) 0 0 / cover no-repeat fixed;
+   margin-bottom: 40px;
+   padding-top: 20px;
+}
+.container-proba-img .text{
+   max-width: 600px;
+   max-height: 200px;
+   margin: 0 auto;
+   background-color: rgba(181, 96, 96, 0.2);
+}
+.proba2{
+   max-width: 600px;
+   padding: 15px;
+   margin: 20px; 
+   background-color: rgba(201, 25, 25, 0.5);
+   text-align: justify;
+   box-shadow: 5px 5px 5px #1E212C;
+   
+}
+.text-1{
+   background: green url(../img/kyeva_oborona.jpg) 0 0 / cover no-repeat;
+   height: 700px;
+   margin-bottom: 30px;
+}
+.text-2{
+   background-position: bottom center;
+   background: url(../img/proba22.jpg) no-repeat;
+   height: 700px;
+   background-position: 50px 60px;
+}
